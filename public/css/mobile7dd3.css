@@ -1,0 +1,639 @@
+@media (max-width: 1060px) {
+    .testimonials img {
+        left: -20%;
+    }
+}
+@media (max-width: 767px) {
+    body {
+        zoom: 0.9;
+    }
+
+    .jumbotron-content {
+        display: none;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1028;
+        margin-top: 0;
+        background: #3d30e7;
+        height: 70px;
+        padding: 12px 0px;
+    }
+        .navbar-brand {
+            height: 34px;
+            padding: 6px 15px;
+        }
+            .logo {
+                width: 124px;
+                height: 34px;
+            }
+    .navmenu {
+        width: 250px;
+        background-color: #36325d;
+        padding: 39px 20px 20px;
+        font-size: 14px;
+        color: #f5f7f9;
+
+    }
+    .navmenu::-webkit-scrollbar {
+        width: 5px;
+    }
+    .navmenu::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 1px #f5f7f9;
+    }
+    .navmenu::-webkit-scrollbar-thumb {
+      background-color: #f5f7f9;
+      outline: 1px solid #f5f7f9;
+    }
+
+        .navmenu .navbar-toggle {
+            margin: 0 0 0 -11px;
+            padding: 12px 7px;
+        }
+            .navmenu .navbar-toggle .icon-bar {
+                transform: rotate(45deg);
+                width: 22px;
+                height: 4px;
+            }
+            .navmenu .navbar-toggle .icon-bar:nth-child(2) {
+                transform: rotate(-45deg);
+                margin-top: -4px;
+            }
+            .navmenu .navbar-toggle .icon-bar:nth-child(3) {
+                display: none;
+            }
+
+        .navmenu .navbar-brand {
+            height: 29px;
+            padding: 0;
+            margin-left: 29px;
+        }
+            .navmenu .logo {
+                height: 29px;
+                width: 106px;
+            }
+        .navmenu .telephone {
+            margin-top: 37px;
+            float: initial;
+            text-align: left;
+        }
+        .navmenu .active-link {
+            margin-top: 40px;
+            display: block;
+            text-transform: uppercase;
+            color: #E7ca15;
+        }
+        .navmenu .links {
+            margin-top: 40px;
+        }
+        .navmenu .links.first {
+            margin-top: 40px;
+            margin-bottom:0;
+        }
+            .navmenu .links .title {
+                text-transform: uppercase;
+                padding-bottom: 11px;
+                position: relative;
+            }
+                .navmenu .links .title:after {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    height: 0;
+                    width: 105px;
+                    border: 0;
+                    border-top: 1px solid;
+                }
+            .navmenu .links ul {
+                list-style-type: none;
+                padding: 0;
+                margin-top: 10px;
+            }
+                .navmenu .links ul li {
+                    padding: 9px 0;
+                }
+            .navmenu .links a {
+                color: #f5f7f9;
+            }
+        .navmenu .mitglied {
+            margin-top: 39px;
+        }
+            .navmenu .mitglied .sub-title {
+                display: block;
+                text-transform: uppercase;
+                font-size: 12px;
+                letter-spacing: 0.4px;
+            }
+            .navmenu .mitglied a {
+                display: block;
+            }
+        .navmenu .copyright-info {
+            font-size: 12px;
+            line-height: 1.5;
+            margin-top: 33px;
+        }
+
+        .btn{
+            margin-top:-3px;
+        }
+
+        .carousel-container{
+            padding-bottom:0;
+            padding-top: 0;
+        }
+        .dashboard .carousel-container{padding-bottom:0;}
+
+        #funktioniert-carousel .num{
+            position:static;
+            margin: 0 auto;
+            width: 79px;
+            height: 53px;
+            border-radius: 100px 100px 0 0;
+            display: block;
+            margin: 0 auto;
+            background-color: #3834b4 ;
+            font-size: 30px;
+            font-weight: 900;
+            color: #f4f4f4;
+            padding-top: 8px;
+        }
+
+
+        #funktioniert-carousel .img{
+            margin-bottom:0;
+        }
+
+    /**
+     * Jumbotron
+     */
+        .jumbotron {
+            height: 610px;
+            margin-bottom: 0;
+            background: #3D30E7;
+            background: linear-gradient(180deg, #3D30E7 80%, transparent 20%);
+            padding-top: 0;
+            overflow: hidden;
+        }
+        .jumbotron.partner {
+            height: 550px;
+        }
+        .jumbotron-container-fix {
+            padding-top: 260px;
+        }
+        .jumbotron-content{
+            padding-top: 260px;
+            clip-path: none;
+            background-image: none;
+        }
+        .partner_bg {
+            right: -25%;
+        }
+        .partner-gradient {
+            background-image: linear-gradient(101deg, #3d30e7 6%, rgba(48, 139, 252, 0));
+        }
+        .jumbotron.main:before {
+            content: '';
+            background: #3D30E7;
+            position: absolute;
+            width: 200%;
+            height: 50%;
+            bottom: 0;
+            left: 0;
+            border-radius: 50%;
+            margin-left: -50%;
+        }
+            .jumbotron .mask {
+                display: none;
+            }
+            .woman_bg {
+                display: none;
+            }
+            .jumbotron-980 {
+                position: absolute;
+                width: 110px;
+                height: 110px;
+                left: 0;
+                display: block;
+                margin: 0 auto;
+                margin-top: 100px;
+                top:0;
+                right:0;
+            }
+            .jumbotron > .container {
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                height: 375px;
+                position: relative;
+            }
+                .jumbotron h1 {
+                    font-size: 41px;
+                    line-height: 1.22;
+                    letter-spacing: 1.2px;
+                    margin: 0;
+                    text-align: center;
+                    width: initial;
+                    height: initial;
+                }
+                .jumbotron h3 {
+                    margin: 0;
+                    font-size: 18px;
+                    line-height: 1.44;
+                    letter-spacing: 0.6px;
+                    color: #E7ca15;
+                    text-transform: uppercase;
+                    width: initial;
+                    height: initial;
+                    text-align: center;
+                    padding: 20px 0;
+                }
+                .jumbotron .intro-partner {
+                    margin-top: 200px;
+                }
+                .jumbotron h4 {
+                    margin-top: 24px;
+                    width: 112px;
+                    height: 32px;
+                    font-family: 'Nunito', sans-serif;
+                    font-size: 12px;
+                    letter-spacing: 0.5px;
+                    text-align: center;
+                    color: #f5f7f9;
+                }
+                .jumbotron.partner.jobs  {
+                    margin-bottom: 70px;
+                }
+
+    /**
+     * Was macht zasta
+     */
+        .was-macht-zasta {
+            margin-top: 55px;
+        }
+            .Group-26 {
+                max-width: 60%;
+            }
+            .was-macht-zasta h2 {
+                text-align: center;
+                margin-top: 87px;
+            }
+                .was-macht-zasta h2:after {
+                    left: 50%;
+                    margin-left: -80px;
+                }
+
+            .was-macht-zasta p {
+                text-align: center;
+            }
+            .Path-5 {
+                margin-top: 10px;
+                background-size:80% 20px;
+            }
+
+            .was-macht-zasta .btn{
+                display:table;
+                margin:0 auto;
+            }
+            .was-macht-zasta .link-register{
+                padding-top: 20px;
+            }
+
+    /**
+     * Mit zasta
+     */
+        .mit-zasta {
+            margin-top: 56px;
+        }
+
+        .mit-zasta .box {
+            margin-bottom: 50px;
+        }
+        .row.header{margin-bottom:0;}
+        .row.header h2{
+            padding-bottom: 38px;
+            margin-bottom: 33px;
+        }
+    /**
+     * Unser zasta
+     */
+        .unser-zasta {
+            margin-top: 24px;
+        }
+            .unser-zasta h2 {
+                margin-top: 21px;
+                margin-bottom: 30px;
+            }
+            .unser-zasta p {
+                margin-bottom: 32px;
+                max-width: 335px;
+            }
+
+    /**
+     * Funktioniert
+     */
+        .funktioniert {
+            margin-top: 101px;
+        }
+
+            .funktioniert .link-register {
+                margin-top: 80px;
+            }
+
+    /**
+     * Video
+     */
+        .video {
+            margin-top: 52px;
+        }
+            .embed-responsive-16by9 {
+            }
+            .video .content {
+                padding-top: 20px;
+                margin-left:inherit;
+                margin-right:inherit;
+            }
+            .video .content.row::before {display:none;}
+            .Group-13 {
+                width: 59px;
+                height: 59px;
+                position: absolute;
+                vertical-align: middle;
+                text-align: center;
+                margin: 0 auto;
+                right: 0;
+                left: 0;
+                top: 85px;
+            }
+            .video h2 {
+                font-size: 22px;
+                letter-spacing: 0.8px;
+            }
+
+    /**
+     * Dashboard
+     */
+        .dashboard {
+            margin-top: 52px;
+        }
+            .dashboard h3 {
+                margin-bottom: 23px;
+            }
+            .dashboard h2 {
+                font-size: 24px;
+                width: auto;
+                line-height: 1.25;
+                letter-spacing: 0.9px;
+            }
+            .dashboard-features {
+                margin-top: 42px;
+            }
+            .Path-51 {
+                height: 20px;
+                margin-top: 52px;
+                margin-bottom:50px;
+            }
+                .Path-51.bottom {
+                    margin-top: 64px;
+                }
+
+     #dashboard-features-carousel > div p img{display:none;}
+
+    /**
+     * Mehr erfahren
+     */
+        .mehr-erfahren {
+            margin-top: 50px;
+            margin-bottom: 29px
+        }
+        .mehr-erfahren p {
+            padding: 0 10px;
+        }
+    /**
+    * Demo
+    */
+        .demo {
+            padding-top: 48px;
+            padding-bottom: 29px;
+        }
+        .demo h3 {
+            padding-top: 18px;
+        }
+        .demo>.row>.col-sm-6 {
+            padding-bottom: 23px;
+        }
+        .demo h3, .demo p {
+            text-align: center;
+        }
+        .demo>.row {
+            padding-bottom: 0;
+        }
+        .demo .macbook {
+            width: 100%;
+        }
+    /**
+     * Testimonials
+    */
+        .testimonials .carousel-indicators {
+            display: none;
+        }
+        .testimonials h3 {
+            text-transform: uppercase;
+            font-family: 'Nunito', sans-serif;
+            font-size: 23px;
+            font-weight: 900;
+            line-height: 1.42;
+            letter-spacing: 0.9px;
+            text-align: left;
+            color: #f4f4f4;
+            margin-top: 100px;
+            margin-left: 50px;
+        }
+        .testimonials p {
+            font-family: 'Nunito', sans-serif;
+            font-size: 15px;
+            line-height: 1.75;
+            letter-spacing: 0.7px;
+            text-align: left;
+            color: #f4f4f4;
+            margin-top: 22px;
+            margin-left: 50px;
+            width: 355px;
+        }
+        .testimonials small {
+            font-size: 12px;
+            font-style: italic;
+            line-height: 1.5;
+            color: #f4f4f4;
+            margin-top: 22px;
+            margin-left: 50px;
+            display: block;
+        }
+        .testimonials img {
+            left: -68%;
+        }
+    /**
+     * Oft gestellte Fragen
+    */
+        .white.oft {
+            background-color: #f4f4f4;
+        }
+        .oft .oft-title {
+            margin-top: 61px;
+        }
+        .oft .last {
+            margin-bottom: 68px;
+        }
+        .oft h3, .oft p {
+            text-align: center!important;
+        }
+    /**
+     * Contact
+    */
+    .contact {
+        width: 355px;
+        margin-top: 0;
+    }
+    .contact form {
+        margin: 0;
+    }
+    .margin {
+        padding-top: 17px;
+    }
+    .contact p {
+        margin-bottom: 44px;
+    }
+    /**
+     * Footer
+     */
+        .footer {
+            margin-top: 100px;
+        }
+            footer .mobile-links {
+                margin-top: -15px;
+                display: flex;
+                justify-content: space-around;
+            }
+                footer .mobile-links li {
+                    text-transform: uppercase;
+                    opacity: 1;
+                    font-size: 12px;
+                    font-weight: 600;
+                    line-height: 2.58;
+                    color: #fafbfd;
+                }
+                .footer h4.visible-xs {
+                    position: absolute;
+                    top: -67px;
+                    color: #3834b4 ;
+                    font-family: 'Nunito', sans-serif;
+                    font-size: 12px;
+                    letter-spacing: 0.5px;
+                    text-align: center;
+                    width: 100%;
+                }
+
+
+    /**
+     * Text pages
+     */
+        body.textpage {
+            padding-top: 70px;
+        }
+        .textpage .container {
+            padding-right: 15px;
+            padding-left: 15px;
+            font-size: 16px;
+            line-height: 1.42857143;
+        }
+        .textpage .navbar {
+            height: 70px;
+            padding: 12px 0px;
+            border-bottom: solid 1px #3834b4 ;
+            color: #3834b4 ;
+            background: #f4f4f4;
+        }
+        .textpage .navbar-toggle .icon-bar {
+            background: #3834b4 ;
+        }
+        .textpage .navmenu .navbar-toggle .icon-bar {
+            background: #f4f4f4;
+        }
+        .textpage .text {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+}
+@media (max-width: 425px) {
+    .partner_bg.jobs {
+        left: -160%;
+    }
+    .testimonials img {
+        left: -160%;
+    }
+    .top-links {
+        min-width: 140px;
+    }
+    .btn {
+        padding: 16px 18px;
+    }
+}
+@media (max-width: 370px) {
+    .partner_bg {
+        right: -40%!important;
+    }
+    .testimonials h3 {
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        font-size: 21px;
+        font-weight: 900;
+        line-height: 1.42;
+        letter-spacing: 0.9px;
+        text-align: left;
+        color: #f4f4f4;
+        margin-top: 150px;
+        margin-left: 9px;
+    }
+    .testimonials p {
+        font-family: 'Nunito', sans-serif;
+        font-size: 14px;
+        line-height: 1.75;
+        letter-spacing: 0.7px;
+        text-align: left;
+        color: #f4f4f4;
+        margin-top: 22px;
+        margin-left: 9px;
+        width: 355px;
+    }
+    .testimonials small {
+        font-size: 10px;
+        font-style: italic;
+        line-height: 1.5;
+        color: #f4f4f4;
+        margin-top: 22px;
+        margin-left: 9px;
+        display: block;
+    }
+    .testimonials img {
+        left: -140%;
+    }
+}
+
+@media (max-width: 320px) {
+    .top-links{
+        display:none;
+    }
+}
+
+@media (max-width: 298px) {
+    .navbar-brand {
+        padding-right: 0;
+    }
+}

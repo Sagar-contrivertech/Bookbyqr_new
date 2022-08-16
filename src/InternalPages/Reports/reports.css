@@ -1,0 +1,49 @@
+.box-wrap {
+  /* max-width: 800px; */
+  margin: auto;
+  border-radius: 20px;
+  background: #fff;
+  padding: 36px;
+}
+
+.center-txt-reports {
+  text-align: center;
+  width: 100%;
+}
+
+.head-box {
+  margin-left: 120px;
+  padding: 16px;
+  background: blue;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 667px) and (min-width: 375px) {
+  .head-box {
+    margin-left: 70px;
+    padding: 16px;
+    background: blue;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+.MuiFormControl-root {
+  width: 100% !important;
+  margin-top: 24px !important;
+}
+
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+  font-size: 20px !important;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  font-size: 20px !important;
+}
+
+.mail-button {
+  border: 2px solid black;
+}
