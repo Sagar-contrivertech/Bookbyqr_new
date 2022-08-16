@@ -1,0 +1,18 @@
+.qr-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.qr-btns button {
+  margin: 0 8px;
+}
+.qrcode {
+  margin-bottom: 24px;
+}
+.qr-card {
+  max-width: 600px;
+  margin: auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 24px;
+}

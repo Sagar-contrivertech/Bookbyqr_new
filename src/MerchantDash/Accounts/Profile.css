@@ -1,0 +1,130 @@
+.profile-box {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    /* width: auto; */
+}
+.h2-tag{
+    text-align: center;
+}
+
+.m-17{
+    margin: 17px;
+}
+
+.p-tag{
+    margin: 4px;
+}
+
+.vertical-center {
+    margin: 0;
+    /* position: absolute;
+    top: 50%;
+    left: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-btn{
+    background-color: #3834b4 ;
+    color: #FFFFFF;
+    border: none;
+    width: 150px;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.plan-btn{
+    background-color: #E7ca15;
+    color: #3834b4 ;
+    border: none;
+    width: 150px;
+    border-radius: 10px;
+    /* height: 20px; */
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px;
+    padding: 5px;
+}
+
+.delete-btn{
+    background-color: #bd3f36;
+    color: #FFFFFF;
+    border: none;
+    width: 150px;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.address-btn{
+    background-color: #FFFFFF;
+    color: #3834b4 ;
+    border: none;
+    width: 150px;
+    border-radius: 10px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+@media screen and (max-width: 375px){
+    .vertical-center {
+        margin: 0;
+        position: relative;
+        top: 50%;
+        left: 0;
+        /* -ms-transform: translateY(50%);
+        transform: translateY(50%); */
+    }
+    .edit-btn{
+        /* background-color: #3834b4 ;
+        color: #FFFFFF;
+        border: none; */
+        background-color: #E7ca15;
+        color: #3834b4 ;
+        border: none;
+        width: 150px;
+        border-radius: 10px;
+        /* height: 20px; */
+        font-size: 15px;
+        font-weight: 600;
+        margin: 10px;
+        padding: 5px;
+
+    }
+    
+    .delete-btn{
+        /* background-color: #bd3f36;
+        color: #FFFFFF;
+        border: none; */
+        background-color: #E7ca15;
+        color: #3834b4 ;
+        border: none;
+        width: 150px;
+        border-radius: 10px;
+        /* height: 20px; */
+        font-size: 15px;
+        font-weight: 600;
+        margin: 10px;
+        padding: 5px;
+
+    }    
+}
+
+.input-width{
+    width: 100%;
+}
+
+.profile-border{
+    border: 2px solid black;
+    padding: 5px;
+}

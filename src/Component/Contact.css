@@ -1,0 +1,15 @@
+@media (min-width: 350px) and (max-width: 900px) {
+    .contact-img {
+        margin-top: -180px;
+        margin-bottom: 50px;
+    }
+    .submit-button{
+        font-family: 'Nunito', sans-serif;
+        font-size: '25px'
+    }
+}
+
+.submit-button{
+    font-family: 'Nunito', sans-serif;
+    font-size: '15px'
+}

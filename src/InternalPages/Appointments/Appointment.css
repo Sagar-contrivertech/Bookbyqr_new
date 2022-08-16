@@ -1,0 +1,70 @@
+/* (A) LIST STYLES */
+.sortlist {
+    margin: 0 auto;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .sortlist-li {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+  /* .list-in{
+      display: flex;
+      justify-content: space-between;
+  } */
+.list-mn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+}
+.time{
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.sortlist h3{
+    text-align: center;
+    margin: 10px auto;
+}
+
+.MuiListItemText-primary{
+  font-size: 16px !important;
+}
+.MuiListItemText-secondary{
+  font-size: 12px !important;
+}
+.date{
+  font-size: 12px !important;
+}
+.listItem{
+  border-bottom: 1px solid gray;
+}
+.mod_btn{
+  margin-top: 20px;
+}
+
+.mod_inp {margin: 20px auto;  }
+.mod_inp input{  
+  font-size: 16px;
+}
+  @media screen and (max-width: 768px) {
+
+    .sortlist{
+        width: 90%;
+    }
+
+    .sortlist-li {
+        margin: 10px;
+        padding: 15px;
+        border: 1px solid #dfdfdf;
+        background: #fff;
+        width: 100%;
+      }
+  }

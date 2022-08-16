@@ -1,0 +1,234 @@
+.heading {
+  text-align: center !important;
+}
+
+.button {
+  border-radius: 20px;
+  /* width: 20%; */
+  height: 40px;
+  background-color: #E7ca15 !important;
+  color: #3834b4;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.shadow{
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.margin-left-5{
+  margin-left: -5px;
+}
+
+.margin-left-15{
+  margin-left: -10px; 
+}
+
+.form-check-label{
+  margin-left: 10px;
+}
+
+.week-align{
+  display: flex;
+  justify-content: space-around;
+  margin-left: -30px;
+}
+
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+.padding-0{
+  padding-right:0;
+  padding-left:0;
+}
+.event-icon{
+  margin-right: 10px;
+  width: 50px;
+}
+.btn-add {
+  padding: 0 24px;
+}
+
+.schedule-container {
+  background-color: #C5C6D0;
+  padding-top: 20px;
+}
+
+.border-10 {
+  border: 1px solid beige;
+  border-radius: 10px;
+  width: 90%;
+  height: 43px;
+}
+.mid-hr{
+  /* border: 0px solid #C5C6D0; */
+}
+
+.hr {
+  width: 30%;
+  border: 1px solid black;
+}
+
+/* Row */
+.css-y8ay40-MuiTableCell-root {
+  font-size: 15px !important;
+  font-weight: 800 !important;
+}
+
+.css-i02g0k-MuiTableCell-root {
+  font-size: 15px !important;
+  font-weight: 800 !important;
+}
+
+/* Cell */
+
+.css-177gid-MuiTableCell-root {
+  font-size: 15px !important;
+}
+
+.css-1ex1afd-MuiTableCell-root {
+  font-size: 15px !important;
+}
+
+/* Pagination */
+
+.css-pdct74-MuiTablePagination-selectLabel {
+  font-size: 15px !important;
+}
+
+.css-levciy-MuiTablePagination-displayedRows {
+  font-size: 15px !important;
+}
+
+@media screen and (max-width: 375px) {
+  .button {
+    border-radius: 20px;
+    width: 35%;
+    height: 40px;
+    background-color: #E7ca15 !important;
+    color: #3834b4;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    margin-bottom: 20px;
+  }
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 12px !important;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  font-size: 16px !important;
+}
+
+.sch-popup-btn {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.sch-popup-btn button {
+  margin-bottom: 0;
+}
+
+.MuiOutlinedInput-root {
+  width: 100%;
+}
+
+.sch-select {
+  margin-top: 24px;
+  font-size: 15px;
+
+}
+
+.MuiInputLabel-root {
+  padding-right: 8px;
+  background: #fff;
+}
+
+input::-webkit-datetime-edit {
+  color: transparent;
+}
+
+input:focus::-webkit-datetime-edit {
+  color: #000;
+}
+
+.center-head {
+  font-size: 24px !important;
+  text-align: center;
+  color: #3834b4;
+}
+
+.schedule-box {}
+
+.schedule-box .MuiDialog-paperFullWidth {
+  max-width: none;
+  width: 100%;
+  height: 100%;
+  max-width: 1300px;
+}
+
+.margin-appoint {
+  display: flex;
+}
+
+.div1 {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #C5C6D0;
+}
+
+@media screen and (max-width: 1440px) {
+  .schedule-box .MuiDialog-paperFullWidth {
+    max-width: none;
+    width: 100%;
+    /* height: 100%; */
+    max-width: 500px;
+  }
+
+  .margin-left-5{
+    margin-left: -5px;
+  }
+  
+  .margin-left-15{
+    margin-left: -10px; 
+  }
+}
+
+@media screen and (max-width: 667px) and (min-width: 300px) {
+  .margin-left-5{
+    margin-left: 25px;
+  }
+  
+  .margin-left-15{
+    margin-left: 28px; 
+  }
+
+  .margin-top-10{
+    margin-top: 10px;
+  }
+}
+
+.form__name {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-weight: 900;
+  background-color: #3834b4;
+  padding: 20px;
+  color: #fff;
+  font-size: 15px;
+}

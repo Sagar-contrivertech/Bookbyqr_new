@@ -1,0 +1,39 @@
+.privacy-wrap ol {
+  padding-left: 18px;
+}
+.privacy-wrap ol li {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+}
+.privacy-wrap ul {
+  padding-left: 24px;
+}
+.privacy-wrap p {
+  font-size: 18px;
+}
+.privacy-inner-wrap {
+  margin-bottom: 36px;
+}
+.privacy-inner-wrap p,a{
+  word-break: break-all;
+}
+.privacy-wrap {
+  padding: 33px 85px 46px;
+}
+@media all and (max-width: 990px) {
+  .privacy-wrap {
+    padding: 24px 60px 48px;
+  }
+}
+@media all and (max-width: 990px) {
+  .privacy-wrap {
+    padding: 24px 40px 48px;
+  }
+  .privacy-wrap ol li {
+    font-size: 16px;
+  }
+  .privacy-wrap p {
+    font-size: 16px;
+  }
+}
