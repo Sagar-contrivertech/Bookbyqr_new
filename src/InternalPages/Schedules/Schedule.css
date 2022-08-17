@@ -4,7 +4,7 @@
 
 .button {
   border-radius: 20px;
-  /* width: 20%; */
+  width: 90%; 
   height: 40px;
   background-color: #E7ca15 !important;
   color: #3834b4;
@@ -12,6 +12,32 @@
   font-weight: 700;
   border: none;
   margin-bottom: 20px;
+}
+
+.wrapper {
+      border: 2px solid rgb(116, 110, 110)
+}
+
+.wrap1 {
+  margin-left: 15px;
+}
+
+.time {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 46px;
+  padding: 10px 14px;
+  color: #1a1a1a;
+  font-size: 16px;
+  line-height: 1.5;
+  overflow-wrap: normal;
+  background: #fff;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .shadow{
@@ -61,6 +87,17 @@
 .btn-add {
   padding: 0 24px;
 }
+
+.container {
+  width: 100%;
+}
+
+.width-container {
+  max-width: 700px;
+  margin-left: 350px;
+}
+
+
 
 .schedule-container {
   background-color: #C5C6D0;
@@ -113,10 +150,10 @@
   font-size: 15px !important;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 667px) and (min-width: 375px) {
   .button {
     border-radius: 20px;
-    width: 35%;
+    width: 90%;
     height: 40px;
     background-color: #E7ca15 !important;
     color: #3834b4;
@@ -124,6 +161,18 @@
     font-weight: 500;
     border: none;
     margin-bottom: 20px;
+    margin-left: 5px;
+  }
+  .border-10 {
+  border: 1px solid beige;
+  border-radius: 10px;
+  width: 90%;
+  height: 43px;
+  margin-top: 10px;
+  }
+  .width-container {
+  max-width: 700px;
+  margin-left: 0px;
   }
 }
 
