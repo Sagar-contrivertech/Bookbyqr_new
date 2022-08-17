@@ -15,29 +15,11 @@
 }
 
 .wrapper {
-      border: 2px solid rgb(116, 110, 110)
+      border: 1px solid #C5C6D0
 }
 
 .wrap1 {
   margin-left: 15px;
-}
-
-.time {
-  display: block;
-  box-sizing: border-box;
-  width: 100%;
-  min-height: 46px;
-  padding: 10px 14px;
-  color: #1a1a1a;
-  font-size: 16px;
-  line-height: 1.5;
-  overflow-wrap: normal;
-  background: #fff;
-  border: 1px solid #d0d0d0;
-  border-radius: 8px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
 }
 
 .shadow{
