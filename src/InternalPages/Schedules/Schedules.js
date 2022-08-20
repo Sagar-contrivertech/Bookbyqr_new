@@ -58,136 +58,169 @@ const Schedules = () => {
         <>
             <ConditionalHeader />
             <div className='width-container'>
-            <div className='container heading' >
-                <h2>Your Schedules</h2>
-                <hr className='hr' />
-                <div className='container schedule-container'>
-                    <div className='row no-gutter'>
-                        {/* <div className='col-lg-2 col-xs-6 padding-0 margin-top-10'>
+                <div className='container heading' >
+                    <h2>Your Schedules</h2>
+                    <hr className='hr' />
+                    <div className='container schedule-container'>
+                        <div className='row no-gutter'>
+                            {/* <div className='col-lg-2 col-xs-6 padding-0 margin-top-10'>
                             <button className='border-10'>
                                  <EventNoteOutlinedIcon className='event-icon'/> 
                                 First Schedule</button>
                         </div> */}
-                        <div className='col-lg-3 col-xs-6' >
-                            <button className='border-10 padding-0 margin-top-10'>
-                                {/* <EventNoteOutlinedIcon /> */}
-                                First Schedule</button>
-                        </div>
-                        <div className='col-lg-3 col-xs-6'>
-                            <button className='border-10 padding-0 margin-top-10'>
-                                {/* <EventNoteOutlinedIcon /> */}
-                                Second Schedule</button>
-                        </div>
-                        <div className='col-lg-2 col-xs-6 '>
-                            <button className='border-10'>2 More <KeyboardArrowDownOutlinedIcon fontSize='large' /></button>
-                        </div>
-                        <div className='col-lg-3 col-xs-6 margin-top-10'>
-                            <button className="button">+ New Schedules</button>
+                            <div className='col-lg-4 col-xs-6' >
+                                <button className='border-10 padding-0 margin-top-10'>
+                                    {/* <EventNoteOutlinedIcon /> */}
+                                    First Schedule</button>
+                            </div>
+                            {/* <div className='col-lg-3 col-xs-6'>
+                                <button className='border-10 padding-0 margin-top-10'>
+                                    Second Schedule</button>
+                            </div> */}
+                            <div className='col-lg-3 col-xs-6 '>
+                                <button className='border-10'>2 More <KeyboardArrowDownOutlinedIcon fontSize='large' /></button>
+                            </div>
+                            <div className='col-lg-4 col-xs-6 margin-top-10'>
+                                <button className="button">+ New Schedules</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className='container text-left'>
-                    <h3 className='shadow'>First Schedule</h3>
-                    <div className="wrapper">
-                        <form style={{ marginTop: '30px' }}>
-                        <div className= "wrap1">
-                            <label>Available Dates</label>
-                            <div className="row" >
-                                <div className="col-sm-4 col-xs-5" >
-                                    {/* <label for="inputEmail4">Slot Duration</label> */}
-                                    <input type="email" class="form-control" id="inputEmail4" />
-                                </div>
-                                <div className="col-sm-4 col-xs-5">
-                                    {/* <label for="inputEmail4">Slot Duration</label> */}
-                                    <input type="email" class="form-control" id="inputEmail4" />
-                                </div>
-                            </div>
-                            <div className="row" style={{ marginTop: '30px' }}>
-                                <div className="col-sm-4 col-xs-5">
-                                    <label for="inputEmail4">Slot</label>
-                                    <input type="email" class="form-control" id="inputEmail4" placeholder='One'/>
-                                </div>
-                                <div className="col-sm-4 col-xs-5">
-                                    <label for="inputEmail4">Slot Duration</label>
-                                    <input type="email" class="form-control" id="inputEmail4" placeholder='15 minutes'/>
-                                </div>
-                            </div>
-                        </div>
-                        <hr className='mid-hr' />
-                        <div className="div1">
-                            <div style={{ marginTop: '30px', marginLeft:'50px' }}>
-                                <label>Set Weekly Hours</label>
-                                <div className='row' style={{ marginLeft: '-66px', marginTop: '30px' }}>
-                                    <div className='col-lg-8 week-align'>
-                                        <div>
-                                            <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                                            <label className="form-check-label" for="exampleCheck1">SUN</label>
+                    <div className='container text-left'>
+                        <h3 className='shadow'>First Schedule</h3>
+                        <div className="wrapper">
+                            <form style={{ marginTop: '30px' }}>
+                                <div className="wrap1">
+                                    <label>Available Dates</label>
+                                    <div className="row" >
+                                        <div className="col-sm-5 col-xs-5" >
+                                            {/* <label for="inputEmail5">Slot Duration</label> */}
+                                            <input type="email" class="form-control" id="inputEmail5" />
                                         </div>
-                                        <p>Unavailable</p>
+                                        <div className="col-sm-5 col-xs-5">
+                                            {/* <label for="inputEmail5">Slot Duration</label> */}
+                                            <input type="email" class="form-control" id="inputEmail5" />
+                                        </div>
+                                    </div>
+                                    <div className="row" style={{ marginTop: '30px' }}>
+                                        <div className="col-sm-5 col-xs-5">
+                                            <label for="inputEmail5">Slot</label>
+                                            <input type="email" class="form-control" id="inputEmail5" placeholder='One' />
+                                        </div>
+                                        <div className="col-sm-5 col-xs-5">
+                                            <label for="inputEmail5">Slot Duration</label>
+                                            <input type="email" class="form-control" id="inputEmail5" placeholder='15 minutes' />
+                                        </div>
                                     </div>
                                 </div>
                                 <hr className='mid-hr' />
-                                <div className='row'>
-                                    <div className='col-lg-8 week-align'>
-                                        <div>
-                                            <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                                            <label className="form-check-label" for="exampleCheck1">MON</label>
+                                <div className="div1">
+                                    <div style={{ marginTop: '30px', marginLeft: '50px' }}>
+                                        <label>Set Weekly Hours</label>
+                                        <div className='row' style={{ marginLeft: '-75px', marginTop: '15px' }}>
+                                            <div className='col-lg-12 week-align'>
+                                                <div className='col-lg-4 week-align'>
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                                                    {/* </div>
+                                                <div className='col-lg-2 week-align'> */}
+                                                    <label className="form-check-label" for="exampleCheck1" style={{ marginLeft: '-50px' }}>SUN</label>
+                                                </div>
+                                                <div className='col-lg-4 week-align'>
+                                                    <p style={{ marginLeft: '-150px' }}>Unavailable</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <input type="time" placeholder='9:00'/>
-                                        <input type="time" placeholder='5:00'/>
-                                        <DeleteOutlineIcon color="error" fontSize='large' />
-                                    </div>
-                                </div>
-                                <hr className='mid-hr' />
-                                <div className='row'>
-                                    <div className='col-lg-8 week-align'>
-                                        <div>
-                                            <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                                            <label className="form-check-label" for="exampleCheck1">TUE</label>
+                                        <hr className='mid-hr' />
+                                        <div className='row'>
+                                            <div className='col-lg-12 week-align'>
+                                                <div className='col-lg-4 week-align'>
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                                                    {/* </div>
+                                                <div className='col-lg-2 week-align'> */}
+                                                    <label className="form-check-label" for="exampleCheck1" style={{ marginLeft: '-50px' }}>MON</label>
+                                                </div>
+                                                <div className='col-lg-4 week-align'>
+                                                    <input type="time" placeholder='9:00' style={{ marginLeft: '-100px' }} />
+                                                </div>
+                                                <div className='col-lg-4 week-align'>
+                                                    <input type="time" placeholder='5:00' style={{ marginLeft: '-150px' }} />
+                                                </div>
+                                                <DeleteOutlineIcon color="error" fontSize='large' />
+                                            </div>
                                         </div>
-                                        <input type="time" style={{ marginLeft: '5px' }} placeholder='9:00'/>
-                                        <input type="time" placeholder='9:00'/>
-                                        <DeleteOutlineIcon color="error" fontSize='large' />
-                                    </div>
-                                </div>
-                                <hr className='mid-hr' />
-                                <div className='row'>
-                                    <div className='col-lg-8 week-align'>
-                                        <div>
-                                            <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                                            <label className="form-check-label" for="exampleCheck1">WED</label>
+                                        <hr className='mid-hr' />
+                                        <div className='row'>
+                                            <div className='col-lg-12 week-align'>
+                                                <div className='col-lg-4 week-align'>
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                                                    {/* </div>
+                                                <div className='col-lg-2 week-align'> */}
+                                                    <label className="form-check-label" for="exampleCheck1" style={{ marginLeft: '-50px' }}>TUE</label>
+                                                </div>
+                                                <div className='col-lg-4 week-align'>
+                                                    <input type="time" placeholder='9:00' style={{ marginLeft: '-100px' }} />
+                                                </div>
+                                                <div className='col-lg-4 week-align'>
+                                                    <input type="time" placeholder='5:00' style={{ marginLeft: '-150px' }} />
+                                                </div>
+                                                <DeleteOutlineIcon color="error" fontSize='large' />
+                                            </div>
                                         </div>
-                                        <input type="time" placeholder='9:00'/>
-                                        <input type="time" placeholder='9:00'/>
-                                        <DeleteOutlineIcon color="error" fontSize='large' />
-                                    </div>
-                                </div>
-                                <hr className='mid-hr' />
-                                <div className='row'>
-                                    <div className='col-lg-8 week-align'>
-                                        <div>
-                                            <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                                            <label className="form-check-label" for="exampleCheck1">THU</label>
+                                        <hr className='mid-hr' />
+                                        <div className='row'>
+                                            <div className='col-lg-12 week-align'>
+                                                <div className='col-lg-4 week-align'>
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                                                    {/* </div>
+                                                <div className='col-lg-2 week-align'> */}
+                                                    <label className="form-check-label" for="exampleCheck1" style={{ marginLeft: '-50px' }}>WED</label>
+                                                </div>
+                                                <div className='col-lg-4 week-align'>
+                                                    <input type="time" placeholder='9:00' style={{ marginLeft: '-100px' }} />
+                                                </div>
+                                                <div className='col-lg-4 week-align'>
+                                                    <input type="time" placeholder='5:00' style={{ marginLeft: '-150px' }} />
+                                                </div>
+                                                <DeleteOutlineIcon color="error" fontSize='large' />
+                                            </div>
                                         </div>
-                                        <input type="time" style={{ marginLeft: '5px' }} placeholder='9:00'/>
-                                        <input type="time" placeholder='9:00'/>
-                                        <DeleteOutlineIcon color="error" fontSize='large' />
-                                    </div>
-                                </div>
-                                <hr className='mid-hr' />
-                                <div className='row'>
-                                    <div className='col-lg-8 week-align'>
-                                        <div>
-                                            <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                                            <label className="form-check-label" for="exampleCheck1">FRI</label>
+                                        <hr className='mid-hr' />
+                                        <div className='row'>
+                                            <div className='col-lg-12 week-align'>
+                                                <div className='col-lg-4 week-align'>
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                                                    {/* </div>
+                                                <div className='col-lg-2 week-align'> */}
+                                                    <label className="form-check-label" for="exampleCheck1" style={{ marginLeft: '-50px' }}>THU</label>
+                                                </div>
+                                                <div className='col-lg-4 week-align'>
+                                                    <input type="time" placeholder='9:00' style={{ marginLeft: '-100px' }} />
+                                                </div>
+                                                <div className='col-lg-4 week-align'>
+                                                    <input type="time" placeholder='5:00' style={{ marginLeft: '-150px' }} />
+                                                </div>
+                                                <DeleteOutlineIcon color="error" fontSize='large' />
+                                            </div>
                                         </div>
-                                        <input type="time" style={{ marginLeft: '15px' }} placeholder='9:00'/>
-                                        <input type="time" placeholder='9:00'/>
-                                        <DeleteOutlineIcon color="error" fontSize='large' />
-                                    </div>
-                                </div>
-                                <hr className='mid-hr' />
-                                {/* <div className='row' style={{ marginLeft: '-66px'}}>
+                                        <hr className='mid-hr' />
+                                        <div className='row'>
+                                            <div className='col-lg-12 week-align'>
+                                                <div className='col-lg-4 week-align'>
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                                                    {/* </div>
+                                                <div className='col-lg-2 week-align'> */}
+                                                    <label className="form-check-label" for="exampleCheck1" style={{ marginLeft: '-50px' }}>FRI</label>
+                                                </div>
+                                                <div className='col-lg-4 week-align'>
+                                                    <input type="time" placeholder='9:00' style={{ marginLeft: '-100px' }} />
+                                                </div>
+                                                <div className='col-lg-4 week-align'>
+                                                    <input type="time" placeholder='5:00' style={{ marginLeft: '-150px' }} />
+                                                </div>
+                                                <DeleteOutlineIcon color="error" fontSize='large' />
+                                            </div>
+                                        </div>
+                                        <hr className='mid-hr' />
+                                        {/* <div className='row' style={{ marginLeft: '-66px'}}>
                                     <div className='col-lg-8 week-align'>
                                         <div>
                                             <input type="checkbox" class="form-check-input" id="exampleCheck1" />
@@ -196,21 +229,23 @@ const Schedules = () => {
                                         <p>Unavailable</p>
                                     </div>
                                 </div> */}
-                                <div className='row' style={{ marginLeft: '-66px', marginBottom: '5px'}}>
-                                    <div className='col-lg-8 week-align'>
-                                        <div>
-                                            <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                                            <label className="form-check-label" for="exampleCheck1">SAT</label>
+                                        <div className='row' style={{ marginLeft: '-70px', marginBottom: '5px' }}>
+                                            <div className='col-lg-12 week-align'>
+                                                <div className='col-lg-4 week-align'>
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                                                    <label className="form-check-label" for="exampleCheck1" style={{ marginLeft: '-50px' }}>SAT</label>
+                                                </div>
+                                                <div className='col-lg-4 week-align'>
+                                                    <p style={{ marginLeft: '-150px' }}>Unavailable</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <p>Unavailable</p>
                                     </div>
                                 </div>
-                            </div>
+                            </form>
                         </div>
-                    </form>
                     </div>
                 </div>
-            </div>
             </div>
             <Footer />
         </>
