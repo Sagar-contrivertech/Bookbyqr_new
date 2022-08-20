@@ -92,21 +92,21 @@ const Schedules = () => {
                                 <div className="wrap1">
                                     <label>Available Dates</label>
                                     <div className="row" >
-                                        <div className="col-md-5 col-xs-5" >
+                                        <div className="col-md-5 col-lg-5 col-xs-5" style={{width: '48%'}}>
                                             {/* <label for="inputEmail5">Slot Duration</label> */}
                                             <input type="email" class="form-control" id="inputEmail5" />
                                         </div>
-                                        <div className="col-md-5 col-xs-5">
+                                        <div className="col-md-5 col-lg-5 col-xs-5" style={{width: '48%'}}>
                                             {/* <label for="inputEmail5">Slot Duration</label> */}
                                             <input type="email" class="form-control" id="inputEmail5" />
                                         </div>
                                     </div>
                                     <div className="row" style={{ marginTop: '30px' }}>
-                                        <div className="col-md-5 col-xs-5">
+                                        <div className="col-md-5 col-lg-5 col-xs-5" style={{width: '48%'}}>
                                             <label for="inputEmail5">Slot</label>
                                             <input type="email" class="form-control" id="inputEmail5" placeholder='One' />
                                         </div>
-                                        <div className="col-md-5 col-xs-5">
+                                        <div className="col-md-5 col-lg-5 col-xs-5" style={{width: '48%'}}>
                                             <label for="inputEmail5">Slot Duration</label>
                                             <input type="email" class="form-control" id="inputEmail5" placeholder='15 minutes' />
                                         </div>
@@ -125,12 +125,12 @@ const Schedules = () => {
                                                     <label className="form-check-label" for="exampleCheck1" style={{ marginLeft: '-50px' }}>SUN</label>
                                                 </div>
                                                 <div className='col-lg-4 week-align'>
-                                                    <input type="time" placeholder='9:00' style={{ marginLeft: '-81px', width:  '80%'}} />
+                                                    <input type="time" placeholder='9:00' style={{ marginLeft: '-60px', width:  '80%'}} />
                                                 </div>
                                                 <div className='col-lg-4 week-align'>
-                                                    <input type="time" placeholder='5:00' style={{ marginLeft: '-103px', width:  '80%'}} />
+                                                    <input type="time" placeholder='5:00' style={{ marginLeft: '-60px', width:  '80%'}} />
                                                 </div>
-                                                <DeleteOutlineIcon color="error" fontSize='large' />
+                                                <DeleteOutlineIcon style={{color: 'black'}} fontSize='large' />
                                             </div>
                                         </div>
                                         <hr className='mid-hr' />
@@ -143,12 +143,12 @@ const Schedules = () => {
                                                     <label className="form-check-label" for="exampleCheck1" style={{ marginLeft: '-50px' }}>MON</label>
                                                 </div>
                                                 <div className='col-lg-4 week-align'>
-                                                    <input type="time" placeholder='9:00' style={{ marginLeft: '-81px', width:  '80%'}} />
+                                                    <input type="time" placeholder='9:00' style={{ marginLeft: '-60px', width:  '80%'}} />
                                                 </div>
                                                 <div className='col-lg-4 week-align'>
-                                                    <input type="time" placeholder='5:00' style={{ marginLeft: '-103px', width:  '80%'}} />
+                                                    <input type="time" placeholder='5:00' style={{ marginLeft: '-60px', width:  '80%'}} />
                                                 </div>
-                                                <DeleteOutlineIcon color="error" fontSize='large' />
+                                                <DeleteOutlineIcon style={{color: 'black'}} fontSize='large' />
                                             </div>
                                         </div>
                                         <hr className='mid-hr' />
@@ -161,12 +161,12 @@ const Schedules = () => {
                                                     <label className="form-check-label" for="exampleCheck1" style={{ marginLeft: '-50px' }}>TUE</label>
                                                 </div>
                                                 <div className='col-lg-4 week-align'>
-                                                    <input type="time" placeholder='9:00' style={{ marginLeft: '-81px', width:  '80%'}} />
+                                                    <input type="time" placeholder='9:00' style={{ marginLeft: '-60px', width:  '80%'}} />
                                                 </div>
                                                 <div className='col-lg-4 week-align'>
-                                                    <input type="time" placeholder='5:00' style={{ marginLeft: '-103px', width:  '80%'}} />
+                                                    <input type="time" placeholder='5:00' style={{ marginLeft: '-60px', width:  '80%'}} />
                                                 </div>
-                                                <DeleteOutlineIcon color="error" fontSize='large' />
+                                                <DeleteOutlineIcon style={{color: 'black'}} fontSize='large' />
                                             </div>
                                         </div>
                                         <hr className='mid-hr' />
@@ -179,12 +179,12 @@ const Schedules = () => {
                                                     <label className="form-check-label" for="exampleCheck1" style={{ marginLeft: '-50px' }}>WED</label>
                                                 </div>
                                                 <div className='col-lg-4 week-align'>
-                                                    <input type="time" placeholder='9:00' style={{ marginLeft: '-81px', width:  '80%'}} />
+                                                    <input type="time" placeholder='9:00' style={{ marginLeft: '-60px', width:  '80%'}} />
                                                 </div>
                                                 <div className='col-lg-4 week-align'>
-                                                    <input type="time" placeholder='5:00' style={{ marginLeft: '-103px', width:  '80%'}} />
+                                                    <input type="time" placeholder='5:00' style={{ marginLeft: '-60px', width:  '80%'}} />
                                                 </div>
-                                                <DeleteOutlineIcon color="error" fontSize='large' />
+                                                <DeleteOutlineIcon style={{color: 'black'}} fontSize='large' />
                                             </div>
                                         </div>
                                         <hr className='mid-hr' />
@@ -197,12 +197,12 @@ const Schedules = () => {
                                                     <label className="form-check-label" for="exampleCheck1" style={{ marginLeft: '-50px' }}>THU</label>
                                                 </div>
                                                 <div className='col-lg-4 week-align'>
-                                                    <input type="time" placeholder='9:00' style={{ marginLeft: '-81px', width:  '80%'}} />
+                                                    <input type="time" placeholder='9:00' style={{ marginLeft: '-60px', width:  '80%'}} />
                                                 </div>
                                                 <div className='col-lg-4 week-align'>
-                                                    <input type="time" placeholder='5:00' style={{ marginLeft: '-103px', width:  '80%'}} />
+                                                    <input type="time" placeholder='5:00' style={{ marginLeft: '-60px', width:  '80%'}} />
                                                 </div>
-                                                <DeleteOutlineIcon color="error" fontSize='large' />
+                                                <DeleteOutlineIcon style={{color: 'black'}} fontSize='large' />
                                             </div>
                                         </div>
                                         <hr className='mid-hr' />
@@ -215,12 +215,12 @@ const Schedules = () => {
                                                     <label className="form-check-label" for="exampleCheck1" style={{ marginLeft: '-50px' }}>FRI</label>
                                                 </div>
                                                 <div className='col-lg-4 week-align'>
-                                                    <input type="time" placeholder='9:00' style={{ marginLeft: '-81px', width:  '80%'}} />
+                                                    <input type="time" placeholder='9:00' style={{ marginLeft: '-60px', width:  '80%'}} />
                                                 </div>
                                                 <div className='col-lg-4 week-align'>
-                                                    <input type="time" placeholder='5:00' style={{ marginLeft: '-103px', width:  '80%'}} />
+                                                    <input type="time" placeholder='5:00' style={{ marginLeft: '-60px', width:  '80%'}} />
                                                 </div>
-                                                <DeleteOutlineIcon color="error" fontSize='large' />
+                                                <DeleteOutlineIcon style={{color: 'black'}} fontSize='large' />
                                             </div>
                                         </div>
                                         <hr className='mid-hr' />
@@ -242,12 +242,12 @@ const Schedules = () => {
                                                     <label className="form-check-label" for="exampleCheck1" style={{ marginLeft: '-50px' }}>SAT</label>
                                                 </div>
                                                 <div className='col-lg-4 week-align'>
-                                                    <input type="time" placeholder='9:00' style={{ marginLeft: '-81px', width:  '80%'}} />
+                                                    <input type="time" placeholder='9:00' style={{ marginLeft: '-60px', width:  '80%'}} />
                                                 </div>
                                                 <div className='col-lg-4 week-align'>
-                                                    <input type="time" placeholder='5:00' style={{ marginLeft: '-103px', width:  '80%'}} />
+                                                    <input type="time" placeholder='5:00' style={{ marginLeft: '-60px', width:  '80%'}} />
                                                 </div>
-                                                <DeleteOutlineIcon color="error" fontSize='large' />
+                                                <DeleteOutlineIcon style={{color: 'black'}} fontSize='large' />
                                             </div>
                                         </div>
                                     </div>
