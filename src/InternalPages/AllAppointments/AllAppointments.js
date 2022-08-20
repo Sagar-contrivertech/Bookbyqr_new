@@ -118,7 +118,86 @@ const AllAppointments = () => {
                 <hr className="hr-tag" />
                 <form action="" onSubmit={onFormSubmit}>
                     <div className="row">
-                        <div className="col-sm-12">
+                        <div className="wrap1">
+                            <label>Name of the Schedule</label>
+                            <div className="row" >
+                                <div className="col-lg-10 col-xs-5" >
+                                    {/* <label for="inputEmail5">Slot Duration</label> */}
+                                    <input type="text" class="form-control" id="inputEmail5" />
+                                </div>
+                            </div>
+                            <div className="row" style={{ marginTop: '30px' }}>
+                                <div className="col-md-5 col-xs-5">
+                                    <label for="inputEmail5">Parallel Slot</label>
+                                    <input type="email" class="form-control" id="inputEmail5" placeholder='One' />
+                                </div>
+                                <div className="col-md-5 col-xs-5">
+                                    <label for="inputEmail5">Slot Duration</label>
+                                    <input type="email" class="form-control" id="inputEmail5" placeholder='15 minutes' />
+                                </div>
+                            </div>
+                            <br />
+                            <label>Available Dates</label>
+                            <div className="row" >
+                                <div className="col-sm-5">
+                                    <TextField id="outlined-basic"
+                                        onChange={(e) => { setStartDate(e.target.value) }} name="start_date"
+                                        type="date" value={start_date} className='schedule-field' label="From" variant="outlined" />
+                                </div>
+                                <div className="col-sm-5">
+                                    <TextField id="outlined-basic" type="date"
+                                        onChange={(e) => { setEndDate(e.target.value) }}
+                                        name="end_time"
+                                        value={end_date} className='schedule-field' label="To" variant="outlined" />
+                                </div>
+                            </div>
+                            <br />
+                            <label>Available Hours</label>
+                            <div className="row" style={{marginLeft: '48px'}} >
+                                <div className='col-lg-4 week-align'>
+                                    <input type="time" placeholder='9:00' style={{ marginLeft: '-65px', width: '100%' }} />
+                                </div>
+                                <div className='col-lg-4 week-align'>
+                                    <input type="time" placeholder='5:00' style={{ marginLeft: '-8px', width: '100%' }} />
+                                </div>
+                            </div>
+                            <div className="col-sm-12" style={{ marginTop: '10px', marginLeft: '-15px'}}>
+                                <label>Available Days:</label>
+                                {/* <FormControl sx={{ m: 1, width: 300 }}> */}
+                                <ul>
+                                    {
+                                        weeks.map(week => (
+                                            <>
+                                                <li className="popular-category">
+                                                    <label className="selectit">
+                                                        <input
+                                                            defaultValue="blog"
+                                                            type="checkbox"
+                                                            className="js-wpv-filter-trigger"
+                                                            name="wpv-category[]"
+                                                            id="in-category-3"
+                                                        />{" "}
+                                                        {week}
+                                                    </label>
+                                                </li>
+                                            </>
+                                        ))
+                                    }
+                                </ul>
+                            </div>
+                            <div className="col-sm-12" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-evenly' }}>
+                                <div className="sch-popup-btn">
+                                    <button className="button1 btn-cancel">Cancel</button>
+                                </div>
+                                <div className="sch-popup-btn">
+                                    <button className="button btn-add">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            {/* <div className="col-sm-12">
                             <TextField id="outlined-basic"
                                 onChange={(e) => { setTitle(e.target.value) }} name="title"
                                 value={title} className='schedule-field' label="Title" variant="outlined" />
@@ -166,44 +245,11 @@ const AllAppointments = () => {
                                 onChange={(e) => { setEndDate(e.target.value) }}
                                 name="end_time"
                                 value={end_date} className='schedule-field' label="To" variant="outlined" />
-                        </div>
-                        <div className="col-sm-12" style={{ marginTop: '10px' }}>
-                            <label>Available Days:</label>
-                            {/* <FormControl sx={{ m: 1, width: 300 }}> */}
-                            <ul>
-                                {
-                                    weeks.map(week => (
-                                        <>
-                                            <li className="popular-category">
-                                                <label className="selectit">
-                                                    <input
-                                                        defaultValue="blog"
-                                                        type="checkbox"
-                                                        className="js-wpv-filter-trigger"
-                                                        name="wpv-category[]"
-                                                        id="in-category-3"
-                                                    />{" "}
-                                                    {week}
-                                                </label>
-                                            </li>
-                                        </>
-                                    ))
-                                }
-                            </ul>
-                        </div>
-                        <div className="col-sm-12" style={{display: 'flex', alignItems: 'center', justifyContent: 'space-evenly'}}>
-                            <div className="sch-popup-btn">
-                                <button className="button1 btn-cancel">Cancel</button>
-                            </div>
-                            <div className="sch-popup-btn">
-                                <button className="button btn-add">Submit</button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
+                        </div> */}
         </>
     )
 };
 
 export default AllAppointments;
+
+
