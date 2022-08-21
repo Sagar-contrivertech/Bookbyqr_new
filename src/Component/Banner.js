@@ -59,10 +59,10 @@ const Banner = () => {
                     </div> */}
                     <div className="links media-social">
                         <span className="title"><font style={{ verticalAlign: 'inherit' }}><font style={{ verticalAlign: 'inherit' }}>Social media</font></font></span>
-                        <a href="https://www.instagram.com/abysagar1/" onclick="captureOutboundLink('https://www.instagram.com/abysagar1/'); return false;" target="_blank"><i className="fa fa-instagram media-image social-media" aria-hidden="true"></i></a>
-                        <a href="https://www.facebook.com/bookbyqr/" onclick="captureOutboundLink('https://www.facebook.com/bookbyqr/'); return false;" target="_blank"><i className="fa fa-facebook-official media-image social-media-3" aria-hidden="true"></i></a>
-                        <a href="https://www.linkedin.com/in/aby-sagar-699659125/" onclick="captureOutboundLink('https://www.linkedin.com/in/aby-sagar-699659125/'); return false;" target="_blank"><i className="fa fa-linkedin media-image social-media-1" aria-hidden="true"></i></a>
-                        <a href="https://twitter.com/abysagar1" onclick="captureOutboundLink('https://twitter.com/abysagar1'); return false;" target="_blank"><i className="fa fa-twitter media-image social-media-1" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/abysagar1/" target="_blank"><i className="fa fa-instagram media-image social-media" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/bookbyqr/" target="_blank"><i className="fa fa-facebook-official media-image social-media-3" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/aby-sagar-699659125/" target="_blank"><i className="fa fa-linkedin media-image social-media-1" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/abysagar1" target="_blank"><i className="fa fa-twitter media-image social-media-1" aria-hidden="true"></i></a>
                     </div>
                     <span className="copyright-info"><font style={{ verticalAlign: 'inherit' }}><font style={{ verticalAlign: 'inherit' }}>Note: We do not offer tax advice. </font><font style={{ verticalAlign: 'inherit' }}>zasta.de is a platform on which your tax return is created by independent tax consultants.</font></font></span>
                 </nav>
@@ -88,7 +88,7 @@ const Banner = () => {
                                 <a href="#features" className="head-links">Features</a>
                                 <a href="#aboutus" className="head-links">About Us</a>
                                 <a href="#contactus" className="head-links">Contact Us</a> */}
-                                <Link to="/login" onclick="captureOutboundLink('https://app.zasta.de/register'); return false;" className="btn btn-default" role="button">Sign In</Link>
+                                <Link to="/login"  className="btn btn-default" role="button">Sign In</Link>
                             </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@ const Banner = () => {
                     {/* <h3>Automatische Steuererklärung in 3 Min. mit deinem Steuerberater.</h3> */}
 
                     <h2 className="banner-text" >Scheduling your appointments<br /> should be superfast and supersimple,<br /> Let’s do this in three quick steps.</h2>
-                    <Link className="btn btn-primary regst" to="/register" onclick="captureOutboundLink('https://app.zasta.de/register'); return false;" role="button">
+                    <Link className="btn btn-primary regst" to="/register"  role="button">
                         Register Now</Link>
                     <img src="img/razorpay.webp" className="tuev-top-mobile hidden-xs" alt="TÜV Saarland" />
                     <div className="jumbotron-logos hidden-xs">

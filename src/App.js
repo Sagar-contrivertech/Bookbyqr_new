@@ -23,6 +23,7 @@ import Billing from './MerchantDash/Billing/Billing';
 import Appointments from './MerchantDash/Appointments/Appointments';
 import ReportsPage from './MerchantDash/Reports/ReportsPage';
 import Accounts from './MerchantDash/Accounts/Accounts';
+import Register from './InternalPages/Signup/Register';
 function App() {
   return (
     <>
@@ -30,7 +31,7 @@ function App() {
       <Switch>
         <Route exact path='/' component={LandingPage}/>
         <Route exact path='/login' component={Login}/>
-        <Route path='/register' component={Signup}/>
+        <Route exact path='/register' component={Register}/>
         <Route path='/terms' component={Termsofuse}/>
         <Route path='/privacy' component={Privacy}/>
         <Route path='/refund' component={Refund}/>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import OTPInput, { ResendOTP } from "otp-input-react";
+import OTPInput from "otp-input-react";
 import Footer from '../../Component/Footer';
 import Header from '../../Component/Header';
 import '../Signup/Signup.css'

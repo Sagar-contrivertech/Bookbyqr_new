@@ -7,7 +7,7 @@ import Footer from '../../Component/Footer';
 import Header from '../../Component/Header';
 import './Signup.css'
 
-const Signup = () => {
+const Register = () => {
 
   const [name, setName] = useState('')
   const [business_name, setBusinessName] = useState('')
@@ -20,32 +20,32 @@ const Signup = () => {
   const [termsOfService, setTermService] = useState(false)
   const [otp, setOtp] = useState('')
 
-  const onFormSubmit = async (e) => {
-    console.log('working');
-    e.preventDefault();
-    try {
-      let body = {
-        name: name,
-        business_name: business_name,
-        email: email,
-        password: password,
-        website: website,
-        address: address,
-        phone_number: phone_number,
-        freePlan: freePlan,
-        termsOfService: termsOfService
-      }
-      let response = await axios.post(process.env.REACT_APP_BASE_URL + '/sendRegisterOtpURL', body, { mode: 'cors' })
-        .then((res) => res.json())
-        .then((resp) => {
-          console.log(resp);
-        })
-      console.log(response);
-      setName('')
-    } catch (error) {
-      console.log(error)
-    }
-  }
+  // const onFormSubmit = async (e) => {
+  //   console.log('working');
+  //   e.preventDefault();
+  //   try {
+  //     let body = {
+  //       name: name,
+  //       business_name: business_name,
+  //       email: email,
+  //       password: password,
+  //       website: website,
+  //       address: address,
+  //       phone_number: phone_number,
+  //       freePlan: freePlan,
+  //       termsOfService: termsOfService
+  //     }
+  //     let response = await axios.post(process.env.REACT_APP_BASE_URL + '/sendRegisterOtpURL', body, { mode: 'cors' })
+  //       .then((res) => res.json())
+  //       .then((resp) => {
+  //         console.log(resp);
+  //       })
+  //     console.log(response);
+  //     setName('')
+  //   } catch (error) {
+  //     console.log(error)
+  //   }
+  // }
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -116,7 +116,7 @@ const Signup = () => {
             {
               freePlan === true && termsOfService === true ? (
                 <>
-                  <button className='signup-button' onClick={(e) => {onFormSubmit(e)}}>Sign Up</button>
+                  {/* <button className='signup-button' onClick={(e) => {onFormSubmit(e)}}>Sign Up</button> */}
                 </>
               ) : (
                 <>
@@ -131,7 +131,7 @@ const Signup = () => {
           </form>
         </div>
       </div>
-      <div className="row Path-5 mt-50-all" />
+      {/* <div className="row Path-5 mt-50-all" /> */}
 
       {/* partial */}
       <Footer />
@@ -139,4 +139,4 @@ const Signup = () => {
   )
 };
 
-export default Signup;
+export default Register;
