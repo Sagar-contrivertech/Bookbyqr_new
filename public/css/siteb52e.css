@@ -883,6 +883,7 @@ svg.clip-svg {
 .banner-text {
   margin-top: 150px;
   color: white;
+  bold: none
 }
 
 @media (max-width: 375px) {
@@ -2781,7 +2782,7 @@ h2.margintop20 {
 
 .regst {
   margin: 60px;
-  width: 30%;
+  width: 20%;
 }
 
 .con-img {

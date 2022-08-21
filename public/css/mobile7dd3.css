@@ -176,7 +176,7 @@
             height: 610px;
             margin-bottom: 0;
             background: #3D30E7;
-            background: linear-gradient(180deg, #3D30E7 80%, transparent 20%);
+            background: linear-gradient(180deg, #3D30E7 80%, transparent 20%) !important;
             padding-top: 0;
             overflow: hidden;
         }

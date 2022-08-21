@@ -35,7 +35,7 @@ const Banner = () => {
                             <span className="icon-bar" />
                         </button>
                         <Link className="navbar-brand" to="/">
-                            <img src="img/svg/logo.svg" className="logo" alt="ZASTA" />
+                            <img src="img/svg/logo.svg" className="logo" alt="ZASTA" style={{marginLeft: '168px'}}/>
                         </Link>
                     </div>
                     <span className="telephone hidden">
@@ -79,7 +79,7 @@ const Banner = () => {
                                     <span className="icon-bar" />
                                 </button>
                                 <Link className="navbar-brand" to="/">
-                                    <img src="img/svg/logo.svg" className="logo" alt="BookByQr" />
+                                    <img src="img/svg/logo.svg" className="logo" alt="BookByQr" style={{marginLeft: '170px'}}/>
                                 </Link>
                             </div>
                             <div className="top-links ios-fix-top-links head">
@@ -88,7 +88,7 @@ const Banner = () => {
                                 <a href="#features" className="head-links">Features</a>
                                 <a href="#aboutus" className="head-links">About Us</a>
                                 <a href="#contactus" className="head-links">Contact Us</a> */}
-                                <Link to="/login"  className="btn btn-default" role="button">Sign In</Link>
+                                <Link to="/login" onclick="captureOutboundLink('https://app.zasta.de/register'); return false;" className="btn btn-default" role="button" style={{marginRight: '154px'}}>Sign In</Link>
                             </div>
                         </div>
                     </div>
@@ -99,10 +99,10 @@ const Banner = () => {
                     {/* <h1 className="visible-xs">Hol dir dein Steuergeld zurück.</h1> */}
                     {/* <h3>Automatische Steuererklärung in 3 Min. mit deinem Steuerberater.</h3> */}
 
-                    <h2 className="banner-text" >Scheduling your appointments<br /> should be superfast and supersimple,<br /> Let’s do this in three quick steps.</h2>
-                    <Link className="btn btn-primary regst" to="/register"  role="button">
+                    <h2 className="banner-text" style={{marginLeft:'170px'}}>Scheduling your appointments<br /> should be superfast and supersimple,<br /> Let’s do this in three quick steps.</h2>
+                    <Link className="btn btn-primary regst" to="/register" onclick="captureOutboundLink('https://app.zasta.de/register'); return false;" role="button" style={{ marginLeft: '246px'}}>
                         Register Now</Link>
-                    <img src="img/razorpay.webp" className="tuev-top-mobile hidden-xs" alt="TÜV Saarland" />
+                    <img src="img/razorpay.webp" className="tuev-top-mobile hidden-xs" alt="TÜV Saarland" style={{marginLeft: '300px'}}/>
                     <div className="jumbotron-logos hidden-xs">
                     </div>
                 </div>

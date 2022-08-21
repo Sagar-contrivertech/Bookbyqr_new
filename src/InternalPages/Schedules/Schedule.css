@@ -80,7 +80,7 @@
 
 .width-container {
   max-width: 600px;
-  margin-left: 450px;
+  margin-left: 400px;
 }
 
 .schedule-container {
@@ -158,6 +158,15 @@
   max-width: 700px;
   margin-left: 0px;
   }
+  .time-input{
+  margin-left: -60px;
+  width: 120% !important;
+  }
+}
+
+.time-input{
+  margin-left: -60px;
+  width: 80%
 }
 
 .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
