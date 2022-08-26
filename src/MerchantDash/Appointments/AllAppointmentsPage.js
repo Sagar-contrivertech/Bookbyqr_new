@@ -125,24 +125,7 @@ const AllAppointmentsPage = () => {
     };
     return (
         <>
-            <Paper className={classes.root}>
-                <AppBar position="static" className={classes.static}>
-                    <Toolbar>
-                        {/* <IconButton
-                            edge="start"
-                            className={classes.menuButton}
-                            color="inherit"
-                            aria-label="open drawer"
-                            onClick={() => getWorkerList("ALL")}
-                        >
-                            <AttachMoneySharp />
-                        </IconButton> */}
-                        <Typography className={classes.title} variant="h6" noWrap>
-                            All Appoinments
-                        </Typography>
-                    </Toolbar>
-                </AppBar>
-            </Paper>
+            
             <Grid container justify='center'>
                 <Box sx={{ bgcolor: 'background.paper', width: 900, marginTop: 50 }}>
                     <AppBar position="static">

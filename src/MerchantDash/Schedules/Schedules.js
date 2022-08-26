@@ -1,6 +1,7 @@
 import React from 'react'
 import { makeStyles, useTheme } from '@material-ui/core/styles';
-import SideBar from '../SideBar';
+// import SideBar from '../SideBar';
+import ConditionalHeader from '../../Component/conditional-header/ConditionalHeader'
 import { Grid } from '@material-ui/core';
 import SchedulesTable from './SchedulesTable';
 
@@ -26,10 +27,11 @@ const SchedulesPage = () => {
     const theme = useTheme();
     return (
         <>
+            <ConditionalHeader />
             <div className={classes.root}>
-                <Grid>
+                {/* <Grid>
                     <SideBar />
-                </Grid>
+                </Grid> */}
                 <Grid item sm={9} xs={12}>
                     <div className={classes.pages}>
                         <div className={classes.toolbar}></div>

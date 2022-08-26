@@ -1,7 +1,8 @@
 import { Grid, makeStyles, useTheme } from '@material-ui/core'
 import React from 'react'
+import ConditionalHeader from '../../Component/conditional-header/ConditionalHeader'
 import Footer from '../../Component/Footer'
-import SideBar from '../SideBar'
+// import SideBar from '../SideBar'
 import AllAppointmentsPage from './AllAppointmentsPage'
 
 const useStyles = makeStyles((theme) => {
@@ -24,10 +25,11 @@ const Appointments = () => {
     const theme = useTheme();
     return (
         <>
+            <ConditionalHeader />
             <div className={classes.root}>
-                <Grid>
+                {/* <Grid>
                     <SideBar />
-                </Grid>
+                </Grid> */}
                 <Grid item sm={9} xs={12}>
                     <div className={classes.pages}>
                         <div className={classes.toolbar}></div>

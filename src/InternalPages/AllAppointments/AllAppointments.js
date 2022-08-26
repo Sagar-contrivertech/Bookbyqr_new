@@ -117,7 +117,7 @@ const AllAppointments = () => {
                     their appointments with you.</p>
                 <hr className="hr-tag" />
                 <form action="" onSubmit={onFormSubmit}>
-                    <div className="row">
+                    <div className="row" style = {{paddingBottom: '15px'}}>
                         <div className="wrap1">
                             <label>Name of the Schedule</label>
                             <div className="row" >
@@ -129,11 +129,11 @@ const AllAppointments = () => {
                             <div className="row" style={{ marginTop: '30px' }}>
                                 <div className="col-md-5 col-xs-5" style={{ width: '48%' }}>
                                     <label for="inputEmail5">Parallel Slot</label>
-                                    <input type="email" class="form-control" id="inputEmail5" placeholder='One' />
+                                    <input type="text" class="form-control" id="inputEmail5" placeholder='One' />
                                 </div>
                                 <div className="col-md-5 col-xs-5" style={{ width: '48%' }}>
                                     <label for="inputEmail5">Slot Duration</label>
-                                    <input type="email" class="form-control" id="inputEmail5" placeholder='15 minutes' />
+                                    <input type="text" class="form-control" id="inputEmail5" placeholder='15 minutes' />
                                 </div>
                             </div>
                             <br />
@@ -191,7 +191,8 @@ const AllAppointments = () => {
                                                             className="js-wpv-filter-trigger"
                                                             name="wpv-category[]"
                                                             id="in-category-3"
-                                                        />{" "}
+                                                            style = {{marginLeft: '10px', marginBottom: '8px', marginTop: '5px'}}
+                                                        /> {" "}
                                                         {week}
                                                     </label>
                                                 </li>
@@ -200,19 +201,19 @@ const AllAppointments = () => {
                                     }
                                 </ul>
                             </div>
-                            <div className="col-sm-12" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-evenly' }}>
+                            <div className="col-sm-12" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-evenly', marginTop:'-15px' }}>
                                 <div className="sch-popup-btn">
-                                    <button className="button1 btn-cancel">Cancel</button>
+                                    <button className="button1 btn-cancel" style={{paddingRight: '25px'}}>Cancel</button>
                                 </div>
                                 <div className="sch-popup-btn">
-                                    <button className="button btn-add">Submit</button>
+                                    <button className="button btn-add" style={{marginLeft:'-110px', paddingRight: '73px'}}>Submit</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </form>
             </div>
-            <div className="row Path-5 mt-50-all" />
+            <div className="row Path-5 mt-50-all" style = {{marginTop: '30px'}} />
             <Footer />
             {/* <div className="col-sm-12">
                             <TextField id="outlined-basic"

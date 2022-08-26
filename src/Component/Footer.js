@@ -19,12 +19,12 @@ const Footer = () => {
                         <div className="col-sm-4">
                             {/* <span className="title"><b>BookByQR</b></span> */}
                             <div style={{ marginTop: '50px' }}>
-                                <p>BookByQR aims to radically simplify the appointment booking process of the service providers. Please connect with our social media for the latest news, status and updates on our services.</p>
+                                <p>BookByQR aims to radically simplify the <br />appointment booking process of the service <br />providers. Please connect with our social <br />media for the latest news, status and updates <br />on our services.</p>
                             </div>
                         </div>
                         <div className="col-sm-2">
                             <span className="title"><b>Links</b></span>
-                            <ul>
+                            <ul style={{marginLeft: '-10px'}}>
                                 <li><a href="/">FAQ & Help</a></li>
                                 <li><a href="/">About Us</a></li>
                                 <li><a href="/">Contact Us</a></li>
@@ -32,7 +32,7 @@ const Footer = () => {
                         </div>
                         <div className="col-sm-3">
                             <span className="title">Policies</span>
-                            <ul>
+                            <ul style={{ marginLeft: '-10px' }}>
                                 <li><Link to="/terms">Terms of Use</Link></li>
                                 <li><Link to="/privacy">Privacy Policy</Link></li>
                                 <li><Link to="/refund">Refund Policy</Link></li>
@@ -40,7 +40,7 @@ const Footer = () => {
                         </div>
                         <div className="col-sm-3">
                             <span className="title">Contact Us</span>
-                            <ul>
+                            <ul >
                             <li><a href="tel:+498006020500" onclick="captureOutboundLink('tel:+498006020500'); return false;">
                                     <AddLocationAltOutlinedIcon fontSize="large" color="white"/> 322, Sai PoornaParadise, <br/>HSR Sector 2, Bengaluru , <br/>India
                                 </a></li>

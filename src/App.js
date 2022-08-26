@@ -18,12 +18,12 @@ import HomePage from './InternalPages/HomePage/HomePage';
 import Main from './InternalPages/HomePage/Main';
 import SchedulesPage from './MerchantDash/Schedules/Schedules';
 import AddSchedules from './MerchantDash/Schedules/AddSchedules';
-import QrCode from './MerchantDash/QrCode/QrCode';
 import Billing from './MerchantDash/Billing/Billing';
 import Appointments from './MerchantDash/Appointments/Appointments';
 import ReportsPage from './MerchantDash/Reports/ReportsPage';
 import Accounts from './MerchantDash/Accounts/Accounts';
 import Register from './InternalPages/Signup/Register';
+import  QrCode  from './InternalPages/QrCode/QrCode';
 function App() {
   return (
     <>
@@ -44,7 +44,7 @@ function App() {
         <Route path='/home' component={Main}/>
         <Route path='/schedules' component={Schedules}/>
         <Route path='/add/schedules' component={AddSchedules}/>
-        <Route path='/merchant/qrcode' component={QrCode}/>
+        <Route path='/qrcode' component={QrCode}/>
         <Route path='/merchant/billing' component={Billing}/>
         <Route path='/merchant/appointments' component={Appointments}/>
         <Route path='/merchant/reports' component={ReportsPage}/>

@@ -88,7 +88,7 @@ const Schedules = () => {
                     <div className='container text-left'>
                         <h3 className='shadow'>First Schedule</h3>
                         <div className="wrapper">
-                            <form style={{ marginTop: '30px' }}>
+                            <form style={{ marginTop: '30px'}}>
                                 <div className="wrap1">
                                     <label>Available Dates</label>
                                     <div className="row" >
@@ -114,7 +114,7 @@ const Schedules = () => {
                                 </div>
                                 <hr className='mid-hr' />
                                 <div className="div1">
-                                    <div style={{ marginTop: '30px', marginLeft: '50px' }}>
+                                    <div style={{ marginTop: '30px', marginLeft: '50px', paddingBottom: '30px' }}>
                                         <label className='margin-left'>Set Weekly Hours</label>
                                         <div className='row' style={{marginTop: '15px', marginLeft: '-47px'}}>
                                             <div className='col-lg-12 week-align'>
